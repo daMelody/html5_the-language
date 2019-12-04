@@ -35,14 +35,26 @@
           <td><input name="user_dob" type="date" required /></td>
         </tr>
         <tr>
+          <td><label for="user_email">Email Id:</label></td>
+          <td><input name="user_email" type="email" placeholder="Enter your Email ID" required /></td>
+        </tr>
+        <tr>
           <td><label for="user_phone">Phone Number:</label></td>
           <td><input name="user_phone" type="tel" placeholder="Enter your contact number" required
               pattern="+ [0-9] {12}" />
           </td>
         </tr>
         <tr>
-          <td><label for="user_email">Email Id:</label></td>
-          <td><input name="user_email" type="email" placeholder="Enter your Email ID" required /></td>
+          <td><label for="user_country">Country:</label></td>
+          <td>
+            <select name="user_country" placeholder="Select your country">
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="Canada">Canada</option>
+              <option value="France">France</option>
+              <option value="UK">UK</option>
+            </select>
+          </td>
         </tr>
         <tr>
           <td><label for="user_languages">Languages Known:</label></td>
